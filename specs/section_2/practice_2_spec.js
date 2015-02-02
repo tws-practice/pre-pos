@@ -2,7 +2,7 @@ var count_same_elements = require("../../practices/section_2/practice_2/practice
 
 describe('practice-2-2', function () {
 
-    var collection_a = [
+    var collection = [
             "a","a","a",
             "e","e","e","e","e","e","e",
             "h","h","h","h","h","h","h","h","h","h","h",
@@ -17,7 +17,7 @@ describe('practice-2-2', function () {
     it("把A集合中相同的元素统计出数量", function () {
         var result = count_same_elements(collection);
 
-        expect(result).toBe([
+        expect(result).toEqual([
             {key: "a", count: 3},
             {key: "e", count: 7},
             {key: "h", count: 11},

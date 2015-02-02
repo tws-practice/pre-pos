@@ -8,7 +8,7 @@ describe('practice-1-1', function () {
     it("选出A集合中与B集合中相同的元素", function () {
         var result = collect_same_elements(collection_a, collection_b);
 
-        expect(result).toBe(["a", "e", "f", "d"]);
+        expect(result).toEqual(["a", "e", "f", "d"]);
     });
 
 

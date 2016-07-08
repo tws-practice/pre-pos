@@ -1,3 +1,5 @@
+'use strict';
+
 describe('practice-2-2', function() {
 
   var collection = [

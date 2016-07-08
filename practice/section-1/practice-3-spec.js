@@ -1,3 +1,5 @@
+'use strict';
+
 describe('practice-1-3', function() {
 
   var collection_a = ["a", "e", "h", "t", "f", "c", "g", "b", "d"];

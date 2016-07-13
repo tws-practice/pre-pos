@@ -1,3 +1,4 @@
+/*global countSameElements*/
 'use strict';
 
 describe('practice-2-3', () => {

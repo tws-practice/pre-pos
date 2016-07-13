@@ -1,5 +1,5 @@
 'use strict';
 
 function createUpdatedCollection(collectionA, objectB) {
-  //在这里写入代码
+  return '实现练习要求，并改写该行代码。';
 }

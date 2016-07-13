@@ -1,0 +1,8 @@
+{
+  "name": "pre-pos",
+  "version": "1.0.0",
+  "description": "N/A",
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}

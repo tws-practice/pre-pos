@@ -1,3 +1,4 @@
+/*global createUpdatedCollection*/
 'use strict';
 
 describe('practice-3-4', () => {

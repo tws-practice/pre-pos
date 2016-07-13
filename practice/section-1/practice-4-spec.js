@@ -1,3 +1,4 @@
+/*global collectSameElements*/
 'use strict';
 
 describe('practice-1-4', () => {

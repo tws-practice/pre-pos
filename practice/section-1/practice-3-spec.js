@@ -1,14 +1,14 @@
 'use strict';
 
-describe('practice-1-3', function() {
+describe('practice-1-3', () => {
 
-  var collectionA = ["a", "e", "h", "t", "f", "c", "g", "b", "d"];
-  var collectionB = {value: ["a", "d", "e", "f"]};
+  const collectionA = ['a', 'e', 'h', 't', 'f', 'c', 'g', 'b', 'd'];
+  const collectionB = {value: ['a', 'd', 'e', 'f']};
 
-  it("选出A集合中跟B对象中value属性中的元素相同的元素", function() {
-    
-    var result = collectSameElements(collectionA, collectionB);
+  it('选出A集合中跟B对象中value属性中的元素相同的元素', () => {
 
-    expect(result).toEqual(["a", "e", "f", "d"]);
+    const result = collectSameElements(collectionA, collectionB);
+
+    expect(result).toEqual(['a', 'e', 'f', 'd']);
   });
 });

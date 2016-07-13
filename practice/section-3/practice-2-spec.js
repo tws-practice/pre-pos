@@ -1,35 +1,35 @@
 'use strict';
 
-describe('practice-3-2', function() {
+describe('practice-3-2', () => {
 
-  var collectionA = [
-    {key: "a", count: 3},
-    {key: "e", count: 7},
-    {key: "h", count: 11},
-    {key: "t", count: 20},
-    {key: "f", count: 9},
-    {key: "c", count: 8},
-    {key: "g", count: 7},
-    {key: "b", count: 6},
-    {key: "d", count: 5}
+  const collectionA = [
+    {key: 'a', count: 3},
+    {key: 'e', count: 7},
+    {key: 'h', count: 11},
+    {key: 't', count: 20},
+    {key: 'f', count: 9},
+    {key: 'c', count: 8},
+    {key: 'g', count: 7},
+    {key: 'b', count: 6},
+    {key: 'd', count: 5}
   ];
 
-  var objectB = {value: ["a", "d", "e", "f"]};
+  const objectB = {value: ['a', 'd', 'e', 'f']};
 
-  it("选出A集合中元素的key属性跟B对象中value属性中的元素相同的元素,把他们的count，满3减1，输出减过之后的新A集", function() {
+  it('选出A集合中元素的key属性跟B对象中value属性中的元素相同的元素,把他们的count，满3减1，输出减过之后的新A集', () => {
 
-    var result = createUpdatedCollection(collectionA, objectB);
+    const result = createUpdatedCollection(collectionA, objectB);
 
     expect(result).toEqual([
-      {key: "a", count: 2},
-      {key: "e", count: 5},
-      {key: "h", count: 11},
-      {key: "t", count: 20},
-      {key: "f", count: 6},
-      {key: "c", count: 8},
-      {key: "g", count: 7},
-      {key: "b", count: 6},
-      {key: "d", count: 4}
+      {key: 'a', count: 2},
+      {key: 'e', count: 5},
+      {key: 'h', count: 11},
+      {key: 't', count: 20},
+      {key: 'f', count: 6},
+      {key: 'c', count: 8},
+      {key: 'g', count: 7},
+      {key: 'b', count: 6},
+      {key: 'd', count: 4}
     ]);
   });
 });

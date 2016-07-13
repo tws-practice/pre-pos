@@ -1,14 +1,14 @@
 'use strict';
 
-describe('practice-1-2', function() {
+describe('practice-1-2', () => {
 
-  var collectionA = ["a", "e", "h", "t", "f", "c", "g", "b", "d"];
-  var collectionB = [["a", "d", "e", "f"]];
+  const collectionA = ['a', 'e', 'h', 't', 'f', 'c', 'g', 'b', 'd'];
+  const collectionB = [['a', 'd', 'e', 'f']];
 
-  it("选出A集合中与B集合中子数组的元素相同的元素", function() {
-    
-    var result = collectSameElements(collectionA, collectionB);
+  it('选出A集合中与B集合中子数组的元素相同的元素', () => {
 
-    expect(result).toEqual(["a", "e", "f", "d"]);
+    const result = collectSameElements(collectionA, collectionB);
+
+    expect(result).toEqual(['a', 'e', 'f', 'd']);
   });
 });

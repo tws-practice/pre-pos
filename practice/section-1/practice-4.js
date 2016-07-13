@@ -1,5 +1,5 @@
 'use strict';
 
-function collect_same_elements(collection_a, object_b) {
+function collectSameElements(collectionA, objectB) {
   //在这里写入代码
 }

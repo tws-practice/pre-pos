@@ -1,5 +1,5 @@
 'use strict';
 
-function create_updated_collection(collection_a, object_b) {
+function createUpdatedCollection(collectionA, objectB) {
   //在这里写入代码
 }
